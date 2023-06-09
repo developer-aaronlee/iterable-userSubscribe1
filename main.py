@@ -16,7 +16,7 @@ api_headers = {
     "Api-Key": "f435988be541463fb59da3e9d16d0925"
 }
 
-df = pd.read_csv("iterable_sms_unsub.csv")
+df = pd.read_csv("iterable_sms_unsub2.csv")
 # print(df.values)
 
 nan_values = df.isna()
